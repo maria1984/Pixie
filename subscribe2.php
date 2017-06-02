@@ -7,7 +7,7 @@
 	$list_id = '943f6633a1';
 
 	// Let's start by including the MailChimp API wrapper
-	include('./inc/MailChimp.php');
+	include('https://raw.githubusercontent.com/maria1984/Pixie/master/inc/MailChimp.php');
 	// Then call/use the class
 	use \DrewM\MailChimp\MailChimp;
 	$MailChimp = new MailChimp($api_key);
